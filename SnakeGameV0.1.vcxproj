@@ -142,7 +142,7 @@
     <ClCompile Include="board.cpp" />
     <ClCompile Include="feed.cpp" />
     <ClCompile Include="snake.cpp" />
-    <ClCompile Include="SnakeGame.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="board.h" />
