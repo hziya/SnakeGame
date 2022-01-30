@@ -3,7 +3,7 @@
 enum direction { stop = 0, left, right, up, down };
 
 //function to check if there is a specific number in an array
-bool findInArr(int arr[], int arrSize, int num);
+int findInArr(int arr[], int arrSize, int num);
 
 
 //snake class used to move the snake and store variables for it

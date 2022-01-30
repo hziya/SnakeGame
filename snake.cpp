@@ -1,10 +1,10 @@
 #include "snake.h"
 
-bool findInArr(int arr[], int arrSize, int num) {
+int findInArr(int arr[], int arrSize, int num) {
 	for (int i = 0; i < arrSize; i++) {
-		if (arr[i] == num) return true;
+		if (arr[i] == num) return i;
 	}
-	return false;
+	return -1;
 }
 
 void snake::initializePos(int x, int y) {

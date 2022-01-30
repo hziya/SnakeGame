@@ -1,5 +1,9 @@
 #pragma once
-#include <windows.h>
+#ifdef _WIN32
+#include <Windows.h>
+#else
+#include <unistd.h>
+#endif
 #include <conio.h>
 #include "snake.h"
 #include "feed.h"
@@ -18,8 +22,8 @@ private:
     void reset();
 
 public:
-    snake snake;
-    feed feed;
+    snake _snake;
+    feed _feed;
 
     //constructor function
     board(int width, int height);
